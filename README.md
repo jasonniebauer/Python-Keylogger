@@ -5,7 +5,7 @@ A stealth keylogger for Windows.
 
 **Table of Contents**
 1. [Introduction](#introduction) 
-2. [Getting Started](#getting-started)
+2. [Get Started](#get-started)
 3. [Keylogging](#keylogging)
 4. [Roadmap](#roadmap)
 
@@ -14,20 +14,17 @@ Recording the keys struck on a keyboard, commonly referred to as keystroke loggi
 
 Keystroke logging can be acheived with the help of a keylogger, short for keystroke logger, that allows the person operating the program to capture every keystroke that the user makes and then retreive that data.
 
-## Getting Started
+### Prerequisite
+This project assumes you have Python 3 already installed on both your machine and the target's to run the keylogger. If not, go ahead and [download the latest version for Windows](https://www.python.org/downloads/windows/) from the official Python Software Foundation.
 
-### Install Python
-This project uses Python 3 which means that the target machine must have Python 3 installed in order to run the keylogger.
-
-1. [Download the latest version for Windows](https://www.python.org/downloads/windows/) from the official Python Software Foundation site.
-2. Once the download has finished, run the `.exe` file to complete the install.
+## Get Started
 
 ### Install pynput
 Included in this keylogger is the [pynput](https://github.com/moses-palmer/pynput) library, which is used to monitor input devices. We need to install the package to make use of it within our script.
 
 1. Navigate to the **python-keylogger** project folder.
 2. Press <kbd>shift</kbd>+ right click the **pynput** folder and then select **Open PowerShell window here**.
-3. Now that you have a PowerShell window open with the pynput directory path, type the following command and press <kbd>Enter</kbd>
+3. With the PowerShell window open pointing to the pynput directory, type the following command and press <kbd>Enter</kbd>
     ```shell
     python setup.py install
     ```
