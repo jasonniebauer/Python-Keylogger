@@ -3,14 +3,11 @@ A stealth keylogger for Windows.
 
 ##### *DISCLAIMER: This tutorial has been made for educational purposes only. I do not promote malicious practices and will not be responsible for any illegal activities. Use at your own risk.*
 
-To Do list
-- [ ] Add remote monitoring
-- [ ] Automate injection
-
 **Table of Contents**
 1. [Introduction](#introduction) 
 2. [Getting Started](#getting-started)
-3. [Keylogging](#keylogging)  
+3. [Keylogging](#keylogging)
+4. [Roadmap](#roadmap)
 
 ## Introduction
 Recording the keys struck on a keyboard, commonly referred to as keystroke logging or keyboard capturing, is typically a covert action that the person using the keyboard is unaware that their actions are being monitored. This type of surveillance has the capability to record every keystroke made on that system.
@@ -50,3 +47,8 @@ Start keylogger on startup
     ```python
     log_dir = "C:\Users\Owner\Desktop\logs"
     ```
+    
+## Roadmap
+- [ ] Add remote monitoring
+- [ ] Clear log file from target machine
+- [ ] Automate injection
