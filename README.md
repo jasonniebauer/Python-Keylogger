@@ -1,7 +1,8 @@
 # Python Keylogger
 A stealth keylogger for Windows.
 
-##### *DISCLAIMER: This tutorial has been made for educational purposes only. I do not promote malicious practices and will not be responsible for any illegal activities. Use at your own risk.*
+#### Disclaimer
+This tutorial has been made for educational purposes only. I do not promote malicious practices and will not be responsible for any illegal activities. Use at your own risk.
 
 **Table of Contents**
 1. [Introduction](#introduction) 
