@@ -49,4 +49,4 @@ Start keylogger on startup
 ## Roadmap
 - [ ] Add remote monitoring
 - [ ] Clear log file from target machine
-- [ ] Automate injection
+- [ ] Automate injection (start keylogger on boot) [Reference](https://www.youtube.com/watch?v=x8GbWt56TlY)
